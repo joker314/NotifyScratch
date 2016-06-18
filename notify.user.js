@@ -1,3 +1,11 @@
+// ==UserScript==
+// @name         Notify
+// @namespace    joker314.github.io
+// @version      1.0
+// @description  Rings a sound when you receive a notification in Scratch
+// @author       jokebookservice1
+// @match        *://scratch.mit.edu/*
+// ==/UserScript==
 var title = document.getElementsByTagName("title")[0];
 var titleData = title.innerHTML;
 var oldMessageCount = -1;
